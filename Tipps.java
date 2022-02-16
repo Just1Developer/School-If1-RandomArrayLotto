@@ -56,5 +56,18 @@ public class testing {
 		}
 
 	}
-
+	
+																			/*
+	Tipps zur Lotterie:																
+	
+	Man hat die Zahlen 1 - 49. Daraus sollen 6 Zahlen gezogen werden.
+	Also brauchen wir eine Loop, die 6 mal durchgeht. Des Weiteren brauchen wir einen Array der Größe 6,
+	der unsere 6 Zufallszahlen speichert.
+	Bei jedem Durchlauf setzen wir den i-ten Wert von unserem Array auf eine Zufällige Zahl zwischen 1 und 49:
+	
+	zufallszahlen[i] = (int) (Math.random() * 49 + 1);
+	
+	Dann können wir die zufällig generierten Zahlen ausgeben lassen oder mit eingegebenen Zahlen abgleichen.
+	
+																			*/
 }
